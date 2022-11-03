@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Rakkas');
+
+/** genrale **/
+
+body {
+    font-family: "Roboto Mono";
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/** navbar **/
+.navv {
+    position: fixed;
+    width: 100%;
+}
+
+.scrolled {
+    transition: 0.6s;
+    background-color: white;
+}
+
+.scrolled ul li a {
+    color: rgb(0, 0, 0);
+    text-align: right;
+}
+
+.scrolled ul li:hover {
+    transition: 0.2s;
+    border-bottom: 2px solid #0D2F3F;
+}
+
+.content {
+    background-color: #989898;
+}
+
+.content ul a {
+    color: #000;
+}
+
+nav {
+    margin: 0;
+    padding: 1rem 2rem;
+    display: flex;
+    /* 1 */
+    justify-content: space-between;
+    /* 2 */
+    /* 3 */
+    background: #cfd8dc00;
+    /* 4 */
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* 5 */
+    list-style: none;
+    /* 6 */
+}
+
+nav li {
+    margin: 0;
+    padding: 0 0 0 1rem;
+    /* 7! */
+}
+
+nav a {
+    font-family: "Roboto Mono";
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #ffffff
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    font-family: "Rakkas";
+    color: #eda1ab;
+    font-size: 30px;
+}
+
+/** slider **/
+.slider {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+
+}
+
+.slider img {
+    width: 100%;
+    height: auto    ;
+
+}
+
+.slider-content h1 {
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    left: 30%;
+    bottom: 5%;
+}
+
+.slider-content span {
+    font-family: "Rakkas";
+    color: #eda1ab;
+    font-size: 120px;
+    margin-left: 25%;
+}
+
+/** What is tasty **/
+.heading h3 {
+    margin: 3%;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    font-family: 'Anton';
+    background-color: #0D2F3F;
+    height: fit-content;
+    width: 150px;
+}
+
+.split-screen {
+    display: flex;
+
+}
+
+.split-screen__half {
+    flex: 1;
+    padding: 6%;
+
+}
+
+.split-screen__half img {
+    border-radius: 500px;
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 0%;
+}
+
+.split-screen__half p {
+    color: #000000;
+    text-align: left;
+}
+
+/** product **/
+.button-up {
+    float: right;
+    color: #000000;
+    font-size: 40px;
+
+}
+
+.product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px 1em;
+    padding: 40px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+}
+
+.price {
+    color: grey;
+    font-size: 16px;
+}
+
+.card button {
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: auto;
+    font-size: 12px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+/**footer**/
+footer {
+    padding: 4%;
+    background-color: #313131;
+}
+
+footer h3 {
+    font-weight: 300;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+
+/**contact**/
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contact-container {
+    border-radius: 5px;
+    padding: 100px;
+}
+
+
+
+.split-screen2 {
+    display: flex;
+
+}
+
+.split-screen__half2 {
+    flex: 1;
+    padding: 8%
+}
+
+.split-screen__half2 img {
+    width: 7 0%;
+    margin-left: 45%;
+    width: 70%;
+}
+
+.split-screen__half2 p {
+    color: #000000;
+    text-align: left;
+}
+
