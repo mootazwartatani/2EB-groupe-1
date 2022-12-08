@@ -16,9 +16,9 @@
             <nav class="navbar" id="nav">
                 <h2 class="logo">تايستي</h2>
                 <ul>
-                    <li><a href="index.html">ACCUEIL</a></li>
-                    <li><a href="produit.html">PRODUIT</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="index.php">ACCUEIL</a></li>
+                    <li><a href="produit.php">PRODUIT</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
                 </ul>
             </nav>
         </div>

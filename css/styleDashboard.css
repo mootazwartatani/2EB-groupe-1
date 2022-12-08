@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Rakkas');
+/** genrale **/
+
+body {
+    font-family: "Roboto Mono";
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+.navv {
+    position: fixed;
+    width: 100%;
+}
+
+.content {
+    background-color: #989898;
+}
+
+.content ul a {
+    color: #000;
+}
+
+nav {
+    margin: 0;
+    padding: 1rem 2rem;
+    display: flex;
+    /* 1 */
+    justify-content: space-between;
+    /* 2 */
+    /* 3 */
+    background: #cfd8dc00;
+    /* 4 */
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* 5 */
+    list-style: none;
+    /* 6 */
+}
+
+nav li {
+    margin: 0;
+    padding: 0 0 0 1rem;
+    /* 7! */
+}
+
+nav a {
+    font-family: "Roboto Mono";
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #ffffff
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    font-family: "Rakkas";
+    color: #eda1ab;
+    font-size: 30px;
+}
+
+.bg-mynav {
+    background-color: #262f37;
+}
+
+td {
+    line-height: 3rem;
+        text-align: center;
+}
+
+.button-update, .button-add {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-delete {
+    background-color: #ff224f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    margin: 3%;
+    border-collapse: collapse;
+    margin-left: 6%;
+     width: 85%;
+
+  }
+
+  /**Update form**/
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contact-container {
+    border-radius: 5px;
+    padding: 100px;
+}
